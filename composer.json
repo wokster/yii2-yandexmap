@@ -1,0 +1,21 @@
+{
+"name": "wokster/yii2-yandexmap",
+"description": "widgets to display yandex maps and get coordinates to input",
+"type": "yii2-extension",
+"keywords": ["yii2","extension","yandexmap","yandex","map","widget"],
+"license": "BSD-3-Clause",
+"authors": [
+{
+"name": "Maksym Tymofeiev",
+"email": "wokster@list.ru"
+}
+],
+"require": {
+  "yiisoft/yii2": ">=2.0.6"
+},
+"autoload": {
+"psr-4": {
+"wokster\\yandexmap\\": ""
+}
+}
+}
