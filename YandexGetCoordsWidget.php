@@ -25,6 +25,7 @@ class YandexGetCoordsWidget extends InputWidget
     return parent::init();
   }
   public function run(){
+    $zoom_input = '';
     if($this->hasModel()){
       $input = Html::activeInput('text',$this->model,$this->attribute,['class'=>'form-control']);
       if($this->model->hasAttribute($this->zoom_attribute))
